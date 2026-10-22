@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Essence Pilates | Movimento, Equilíbrio e Bem-Estar</title>
+    <meta name="description" content="Estúdio de Pilates premium focado em atendimento personalizado, consciência corporal e qualidade de vida. Agende sua aula experimental.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/tailwind-config.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+<body class="relative antialiased selection:bg-brand-rose selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-dark text-brand-bg py-2.5 px-4 text-center text-xs sm:text-sm tracking-wide font-light border-b border-brand-dark/20">
+        <div class="container mx-auto flex items-center justify-center gap-2">
+            <span class="inline-block w-1.5 h-1.5 rounded-full bg-brand-rose animate-pulse"></span>
+            <span>Seu momento de cuidar do corpo e da mente. <strong>Agende sua aula experimental gratuita.</strong></span>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="main-header" class="sticky top-0 z-40 bg-brand-bg/90 backdrop-blur-md transition-all duration-300 border-b border-brand-border/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex flex-col group">
+                <span class="font-serif text-2xl sm:text-3xl tracking-wider text-brand-dark font-medium group-hover:text-brand-rose transition-colors">ESSENCE</span>
+                <span class="text-[9px] tracking-[0.3em] uppercase text-brand-muted -mt-1 font-semibold">Studio Pilates</span>
+            </a>
+
+            <!-- Desktop Nav Items -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-brand-dark/80">
+                <a href="#inicio" class="hover:text-brand-rose transition-colors py-1">Início</a>
+                <a href="#estudio" class="hover:text-brand-rose transition-colors py-1">O Estúdio</a>
+                <a href="#aulas" class="hover:text-brand-rose transition-colors py-1">Aulas</a>
+                <a href="#beneficios" class="hover:text-brand-rose transition-colors py-1">Benefícios</a>
+                <a href="#planos" class="hover:text-brand-rose transition-colors py-1">Planos</a>
+                <a href="#contato" class="hover:text-brand-rose transition-colors py-1">Contato</a>
+            </nav>
+
+            <!-- CTA Button Header -->
+            <div class="hidden md:flex items-center">
+                <a href="#agendar" class="inline-flex items-center justify-center px-5 py-2.5 text-xs uppercase tracking-widest font-semibold text-white bg-brand-rose hover:bg-brand-rose-hover rounded-full transition-all duration-300 shadow-sm hover:shadow-floating hover:-translate-y-0.5">
+                    Agende sua aula
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-brand-dark hover:bg-brand-nude/50 focus:outline-none" aria-label="Abrir Menu" aria-expanded="false" aria-controls="mobile-menu">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Drawer Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-bg border-b border-brand-border px-6 py-6 shadow-xl">
+            <div class="flex flex-col space-y-4 font-serif text-lg">
+                <a href="#inicio" class="mobile-link text-brand-dark hover:text-brand-rose">Início</a>
+                <a href="#estudio" class="mobile-link text-brand-dark hover:text-brand-rose">O Estúdio</a>
+                <a href="#aulas" class="mobile-link text-brand-dark hover:text-brand-rose">Aulas</a>
+                <a href="#beneficios" class="mobile-link text-brand-dark hover:text-brand-rose">Benefícios</a>
+                <a href="#planos" class="mobile-link text-brand-dark hover:text-brand-rose">Planos</a>
+                <a href="#contato" class="mobile-link text-brand-dark hover:text-brand-rose">Contato</a>
+                <div class="pt-4 border-t border-brand-border/60">
+                    <a href="#agendar" class="mobile-link w-full inline-flex items-center justify-center px-6 py-3 text-xs uppercase tracking-widest font-semibold text-white bg-brand-rose rounded-full text-center">
+                        Agendar Aula Experimental
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="relative pt-12 pb-20 lg:pt-20 lg:pb-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Left Content -->
+                <div class="lg:col-span-7 reveal">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-nude/60 border border-brand-border mb-6">
+                        <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-rose"></i>
+                        <span class="text-xs uppercase tracking-widest font-semibold text-brand-muted">MOVIMENTO • EQUILÍBRIO • BEM-ESTAR</span>
+                    </div>
+
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-brand-dark font-normal leading-[1.15] mb-6">
+                        Seu corpo em harmonia. <br class="hidden sm:inline">
+                        Sua vida em <span class="italic font-serif text-brand-rose font-medium">equilíbrio.</span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-brand-muted font-light leading-relaxed max-w-xl mb-8">
+                        Descubra uma forma mais consciente de se movimentar, fortalecer seu corpo e cuidar de você com acompanhamento altamente personalizado e exclusivo.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-12">
+                        <a href="#agendar" class="inline-flex items-center justify-center px-8 py-4 text-xs uppercase tracking-widest font-bold text-white bg-brand-rose hover:bg-brand-rose-hover rounded-full transition-all duration-300 shadow-md hover:shadow-floating hover:-translate-y-0.5 text-center">
+                            Agendar aula experimental
+                        </a>
+                        <a href="#aulas" class="inline-flex items-center justify-center px-8 py-4 text-xs uppercase tracking-widest font-semibold text-brand-dark bg-brand-card hover:bg-brand-nude border border-brand-border rounded-full transition-all duration-300 text-center">
+                            Conheça nossas aulas
+                        </a>
+                    </div>
+
+                    <!-- Hero Features Badges -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-8 border-t border-brand-border/60">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-brand-card flex items-center justify-center text-brand-rose shrink-0 border border-brand-border/50">
+                                <i data-lucide="user-check" class="w-5 h-5"></i>
+                            </div>
+                            <span class="text-xs font-medium text-brand-dark">Atendimento personalizado</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-brand-card flex items-center justify-center text-brand-rose shrink-0 border border-brand-border/50">
+                                <i data-lucide="award" class="w-5 h-5"></i>
+                            </div>
+                            <span class="text-xs font-medium text-brand-dark">Instrutores qualificados</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full bg-brand-card flex items-center justify-center text-brand-rose shrink-0 border border-brand-border/50">
+                                <i data-lucide="sun" class="w-5 h-5"></i>
+                            </div>
+                            <span class="text-xs font-medium text-brand-dark">Ambiente acolhedor</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Hero Image Stack (Imagem 1 - Exclusiva Hero) -->
+                <div class="lg:col-span-5 relative reveal delay-1">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <!-- Subtle Background Accent Shapes -->
+                        <div class="absolute -top-6 -right-6 w-full h-full bg-brand-nude/50 rounded-3xl -z-10 transform rotate-2"></div>
+                        <div class="absolute -bottom-6 -left-6 w-full h-full border border-brand-rose/20 rounded-3xl -z-10 transform -rotate-1"></div>
+                        
+                        <!-- Main Hero Image -->
+                        <div class="overflow-hidden rounded-2xl shadow-xl aspect-[4/5] bg-brand-card relative">
+                            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1000&q=80" 
+                                 alt="Mulher praticando Pilates Reformer com alta concentração" 
+                                 class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700">
+                            
+                            <!-- Overlay Badge -->
+                            <div class="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-md p-4 rounded-xl border border-white/50 shadow-lg flex items-center justify-between">
+                                <div>
+                                    <p class="font-serif text-lg font-medium text-brand-dark">Sinta a transformação</p>
+                                    <p class="text-xs text-brand-muted">Primeira avaliação guiada por profissionais</p>
+                                </div>
+                                <div class="w-8 h-8 rounded-full bg-brand-rose/10 text-brand-rose flex items-center justify-center">
+                                    <i data-lucide="heart" class="w-4 h-4"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: APRESENTAÇÃO DO ESTÚDIO -->
+    <section id="estudio" class="py-20 bg-brand-card border-y border-brand-border/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Image Composition (Imagens 2 e 3 - Exclusivas Sobre o Estúdio) -->
+                <div class="lg:col-span-6 reveal">
+                    <div class="relative">
+                        <div class="overflow-hidden rounded-2xl shadow-md aspect-[4/3] bg-brand-nude">
+                            <img src="https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=1000&q=80" 
+                                 alt="Ambiente interno e aconchegante do estúdio de Pilates" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                        <div class="hidden sm:block absolute -bottom-8 -right-8 w-1/2 aspect-square rounded-xl overflow-hidden shadow-xl border-4 border-brand-bg">
+                            <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&w=600&q=80" 
+                                 alt="Instrutora orientando alinhamento postural no Cadillac" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Description -->
+                <div class="lg:col-span-6 reveal delay-1">
+                    <span class="text-xs uppercase tracking-widest font-semibold text-brand-rose block mb-2">O ESTÚDIO ESSENCE</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl text-brand-dark font-normal mb-6 leading-tight">
+                        Mais do que exercício. <br><span class="italic font-serif">Um cuidado com você.</span>
+                    </h2>
+
+                    <p class="text-brand-muted leading-relaxed mb-8 font-light">
+                        No Studio Essence Pilates, cada movimento é uma oportunidade de desenvolver mais consciência corporal, respeitar seus limites e construir uma rotina duradoura de bem-estar. Nosso atendimento valoriza a individualidade, garantindo orientação técnica e acolhimento contínuo.
+                    </p>
+
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start gap-4 p-3 rounded-xl bg-brand-bg/60 border border-brand-border/50">
+                            <div class="w-8 h-8 rounded-lg bg-brand-rose/10 text-brand-rose flex items-center justify-center shrink-0 mt-0.5">
+                                <i data-lucide="check-circle-2" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-brand-dark">Acompanhamento individualizado</h3>
+                                <p class="text-xs text-brand-muted">Aulas elaboradas de acordo com suas necessidades específicas e ritmo.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-3 rounded-xl bg-brand-bg/60 border border-brand-border/50">
+                            <div class="w-8 h-8 rounded-lg bg-brand-rose/10 text-brand-rose flex items-center justify-center shrink-0 mt-0.5">
+                                <i data-lucide="coffee" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-brand-dark">Ambiente confortável e acolhedor</h3>
+                                <p class="text-xs text-brand-muted">Climatização adequada, iluminação suave e infraestrutura pensada para o seu relaxamento.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-3 rounded-xl bg-brand-bg/60 border border-brand-border/50">
+                            <div class="w-8 h-8 rounded-lg bg-brand-rose/10 text-brand-rose flex items-center justify-center shrink-0 mt-0.5">
+                                <i data-lucide="shield-check" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-brand-dark">Prática orientada por especialistas</h3>
+                                <p class="text-xs text-brand-muted">Equipe qualificada e em constante atualização no Método Pilates original e contemporâneo.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#galeria" class="inline-flex items-center gap-2 text-xs uppercase tracking-widest font-bold text-brand-rose hover:text-brand-dark transition-colors group">
+                        Conheça nosso espaço físico
+                        <i data-lucide="arrow-right" class="w-4 h-4 transform group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: MODALIDADES -->
+    <section id="aulas" class="py-20 lg:py-28">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12 reveal">
+                <span class="text-xs uppercase tracking-widest font-semibold text-brand-rose">NOSSAS AULAS</span>
+                <h2 class="font-serif text-3xl sm:text-4xl text-brand-dark font-normal mt-2 mb-4">
+                    Encontre seu equilíbrio
+                </h2>
+                <p class="text-brand-muted font-light text-sm sm:text-base">
+                    Práticas pensadas para acompanhar seus objetivos e respeitar seu ritmo biológico.
+                </p>
+            </div>
+
+            <!-- Categories Filter -->
+            <div class="flex flex-wrap justify-center gap-2 mb-10 reveal">
+                <button class="filter-btn active-filter px-5 py-2 text-xs uppercase tracking-wider font-semibold rounded-full border border-brand-rose bg-brand-rose text-white transition-all" data-category="all">Todas</button>
+                <button class="filter-btn px-5 py-2 text-xs uppercase tracking-wider font-semibold rounded-full border border-brand-border bg-brand-card text-brand-muted hover:border-brand-rose transition-all" data-category="equipamentos">Studio & Equipamentos</button>
+                <button class="filter-btn px-5 py-2 text-xs uppercase tracking-wider font-semibold rounded-full border border-brand-border bg-brand-card text-brand-muted hover:border-brand-rose transition-all" data-category="foco">Mobilidade & Saúde</button>
+            </div>
+
+            <!-- Modalidades Cards Grid (Imagens 4 a 9 - Imagens Únicas sem repetição) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="modalidades-grid">
+                
+                <!-- Card 1 (Imagem 4) -->
+                <div class="modality-card bg-brand-card rounded-2xl overflow-hidden border border-brand-border/60 shadow-soft hover:shadow-xl transition-all duration-300 group flex flex-col reveal" data-cat="equipamentos">
+                    <div class="aspect-[16/10] overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=800&q=80" alt="Pilates Studio Equipamentos" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 left-4 bg-brand-bg/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] uppercase tracking-wider font-bold text-brand-dark">Principal</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="font-serif text-2xl text-brand-dark font-medium mb-2">Pilates Studio</h3>
+                        <p class="text-xs text-brand-muted leading-relaxed font-light mb-6 flex-grow">
+                            Exercícios realizados em aparelhos clássicos (Reformer, Cadillac, Chair, Ladder Barrel) para força, alinhamento e consciência corporal.
+                        </p>
+                        <button data-action="open-modality" data-modality-title="Pilates Studio" data-modality-description="O Pilates Studio utiliza aparelhos com molas que oferecem assistência ou resistência durante os movimentos. Ideal para quem busca fortalecimento muscular global, correção postural, alívio de dores nas costas e desenvolvimento de tônus sem impacto articular." class="w-full py-2.5 px-4 rounded-xl border border-brand-border text-xs uppercase tracking-widest font-semibold text-brand-dark hover:bg-brand-rose hover:text-white hover:border-brand-rose transition-all text-center">
+                            Saiba mais
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 (Imagem 5) -->
+                <div class="modality-card bg-brand-card rounded-2xl overflow-hidden border border-brand-border/60 shadow-soft hover:shadow-xl transition-all duration-300 group flex flex-col reveal delay-1" data-cat="foco">
+                    <div class="aspect-[16/10] overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80" alt="Pilates para Iniciantes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="font-serif text-2xl text-brand-dark font-medium mb-2">Pilates para Iniciantes</h3>
+                        <p class="text-xs text-brand-muted leading-relaxed font-light mb-6 flex-grow">
+                            Uma introdução acolhedora e gradual ao método, respeitando o ritmo e a bagagem motora de cada novo praticante.
+                        </p>
+                        <button data-action="open-modality" data-modality-title="Pilates para Iniciantes" data-modality-description="Aulas desenhadas para quem nunca praticou o método. Foco na respiração, na ativação correta do Powerhouse (centro de força) e na execução segura de movimentos fundamentais." class="w-full py-2.5 px-4 rounded-xl border border-brand-border text-xs uppercase tracking-widest font-semibold text-brand-dark hover:bg-brand-rose hover:text-white hover:border-brand-rose transition-all text-center">
+                            Saiba mais
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3 (Imagem 6) -->
+                <div class="modality-card bg-brand-card rounded-2xl overflow-hidden border border-brand-border/60 shadow-soft hover:shadow-xl transition-all duration-300 group flex flex-col reveal delay-2" data-cat="foco">
+                    <div class="aspect-[16/10] overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=800&q=80" alt="Mobilidade e Flexibilidade" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="font-serif text-2xl text-brand-dark font-medium mb-2">Mobilidade & Flexibilidade</h3>
+                        <p class="text-xs text-brand-muted leading-relaxed font-light mb-6 flex-grow">
+                            Práticas direcionadas para aliviar rigidez articular, descompressão da coluna e ampliação do repertório de movimento.
+                        </p>
+                        <button data-action="open-modality" data-modality-title="Mobilidade &amp; Flexibilidade" data-modality-description="Focado em restabelecer a amplitude articular e reduzir as tensões acumuladas da rotina sedentária ou do estresse diário, promovendo leveza imediata." class="w-full py-2.5 px-4 rounded-xl border border-brand-border text-xs uppercase tracking-widest font-semibold text-brand-dark hover:bg-brand-rose hover:text-white hover:border-brand-rose transition-all text-center">
+                            Saiba mais
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 4 (Imagem 7) -->
+                <div class="modality-card bg-brand-card rounded-2xl overflow-hidden border border-brand-border/60 shadow-soft hover:shadow-xl transition-all duration-300 group flex flex-col reveal" data-cat="equipamentos">
+                    <div class="aspect-[16/10] overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80" alt="Pilates Individualizado" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="font-serif text-2xl text-brand-dark font-medium mb-2">Pilates Individualizado</h3>
+                        <p class="text-xs text-brand-muted leading-relaxed font-light mb-6 flex-grow">
+                            Atendimento 100% exclusivo VIP, totalmente adaptado às suas necessidades clínicas, prevenção ou reabilitação funcional.
+                        </p>
+                        <button data-action="open-modality" data-modality-title="Pilates Individualizado" data-modality-description="Ideal para pessoas que necessitam de atenção integral de um fisioterapeuta/instrutor dedicado, ou que possuem objetivos específicos com metas de curto prazo." class="w-full py-2.5 px-4 rounded-xl border border-brand-border text-xs uppercase tracking-widest font-semibold text-brand-dark hover:bg-brand-rose hover:text-white hover:border-brand-rose transition-all text-center">
+                            Saiba mais
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 5 (Imagem 8) -->
+                <div class="modality-card bg-brand-card rounded-2xl overflow-hidden border border-brand-border/60 shadow-soft hover:shadow-xl transition-all duration-300 group flex flex-col reveal delay-1" data-cat="equipamentos">
+                    <div class="aspect-[16/10] overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" alt="Pilates em Pequenos Grupos" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="font-serif text-2xl text-brand-dark font-medium mb-2">Pequenos Grupos</h3>
+                        <p class="text-xs text-brand-muted leading-relaxed font-light mb-6 flex-grow">
+                            Turmas reduzidas (máximo 3 a 4 alunos) para garantir acompanhamento próximo do instrutor e socialização saudável.
+                        </p>
+                        <button data-action="open-modality" data-modality-title="Pequenos Grupos" data-modality-description="Mantém a essência da personalização com a dinâmica agradável de grupo. Cada aluno realiza sua ficha de exercícios individualizada dentro da sala." class="w-full py-2.5 px-4 rounded-xl border border-brand-border text-xs uppercase tracking-widest font-semibold text-brand-dark hover:bg-brand-rose hover:text-white hover:border-brand-rose transition-all text-center">
+                            Saiba mais
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 6 (Imagem 9) -->
+                <div class="modality-card bg-brand-card rounded-2xl overflow-hidden border border-brand-border/60 shadow-soft hover:shadow-xl transition-all duration-300 group flex flex-col reveal delay-2" data-cat="foco">
+                    <div class="aspect-[16/10] overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?auto=format&fit=crop&w=800&q=80" alt="Qualidade de Vida" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="font-serif text-2xl text-brand-dark font-medium mb-2">Qualidade de Vida</h3>
+                        <p class="text-xs text-brand-muted leading-relaxed font-light mb-6 flex-grow">
+                            Uma rotina sustentável de movimento consciente para respaldar sua vitalidade, disposição diária e longevidade.
+                        </p>
+                        <button data-action="open-modality" data-modality-title="Qualidade de Vida" data-modality-description="Combinação equilibrada de fortalecimento, relaxamento e exercícios respiratórios para combater a fadiga do trabalho e melhorar a postura no cotidiano." class="w-full py-2.5 px-4 rounded-xl border border-brand-border text-xs uppercase tracking-widest font-semibold text-brand-dark hover:bg-brand-rose hover:text-white hover:border-brand-rose transition-all text-center">
+                            Saiba mais
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#agendar" class="inline-flex items-center gap-2 px-8 py-3.5 text-xs uppercase tracking-widest font-semibold text-white bg-brand-dark hover:bg-brand-rose rounded-full transition-all duration-300 shadow-md">
+                    <span>Agendar aula em qualquer modalidade</span>
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: BENEFÍCIOS DO PILATES (Título Ajustado de Acordo com Requisito 5) -->
+    <section id="beneficios" class="py-20 bg-brand-nude/40 border-y border-brand-border/60 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+                <span class="text-xs uppercase tracking-widest font-semibold text-brand-rose">MÉTODO RECONHECIDO</span>
+                <h2 class="font-serif text-3xl sm:text-4xl text-brand-dark font-normal mt-2">
+                    Benefícios do Pilates
+                </h2>
+                <p class="text-xs sm:text-sm text-brand-muted font-light mt-2">Pequenos movimentos. Novas possibilidades para o seu corpo.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+                
+                <!-- Benefit 1 -->
+                <div class="bg-brand-bg p-6 rounded-2xl border border-brand-border/60 text-center flex flex-col items-center hover:-translate-y-1 transition-transform duration-300 shadow-soft reveal">
+                    <div class="w-12 h-12 rounded-full bg-brand-card text-brand-rose flex items-center justify-center mb-4 border border-brand-border/40">
+                        <i data-lucide="activity" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-serif text-xl text-brand-dark font-medium mb-2">Fortalecimento Muscular</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed font-light">
+                        Desenvolvimento de tônus muscular equilibrado sem sobrecarga articular desnecessária.
+                    </p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="bg-brand-bg p-6 rounded-2xl border border-brand-border/60 text-center flex flex-col items-center hover:-translate-y-1 transition-transform duration-300 shadow-soft reveal delay-1">
+                    <div class="w-12 h-12 rounded-full bg-brand-card text-brand-rose flex items-center justify-center mb-4 border border-brand-border/40">
+                        <i data-lucide="brain" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-serif text-xl text-brand-dark font-medium mb-2">Consciência Corporal</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed font-light">
+                        Melhora do alinhamento postural diário e maior domínio dos movimentos do próprio corpo.
+                    </p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="bg-brand-bg p-6 rounded-2xl border border-brand-border/60 text-center flex flex-col items-center hover:-translate-y-1 transition-transform duration-300 shadow-soft reveal delay-2">
+                    <div class="w-12 h-12 rounded-full bg-brand-card text-brand-rose flex items-center justify-center mb-4 border border-brand-border/40">
+                        <i data-lucide="move" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-serif text-xl text-brand-dark font-medium mb-2">Mobilidade & Flexibilidade</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed font-light">
+                        Ganho progressivo na amplitude das articulações e alívio da rigidez do estresse diário.
+                    </p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="bg-brand-bg p-6 rounded-2xl border border-brand-border/60 text-center flex flex-col items-center hover:-translate-y-1 transition-transform duration-300 shadow-soft reveal delay-3">
+                    <div class="w-12 h-12 rounded-full bg-brand-card text-brand-rose flex items-center justify-center mb-4 border border-brand-border/40">
+                        <i data-lucide="scale" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-serif text-xl text-brand-dark font-medium mb-2">Equilíbrio & Coordenação</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed font-light">
+                        Estabilização dos músculos profundos do tronco (Core/Powerhouse) protegendo a coluna.
+                    </p>
+                </div>
+
+                <!-- Benefit 5 -->
+                <div class="bg-brand-bg p-6 rounded-2xl border border-brand-border/60 text-center flex flex-col items-center hover:-translate-y-1 transition-transform duration-300 shadow-soft reveal sm:col-span-2 lg:col-span-1">
+                    <div class="w-12 h-12 rounded-full bg-brand-card text-brand-rose flex items-center justify-center mb-4 border border-brand-border/40">
+                        <i data-lucide="heart-pulse" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-serif text-xl text-brand-dark font-medium mb-2">Bem-Estar Integral</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed font-light">
+                        Estímulo à respiração adequada, diminuindo tensões e restaurando sua energia vital.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Ethical Disclaimer Note -->
+            <div class="mt-12 text-center">
+                <p class="text-[11px] text-brand-muted/80 max-w-2xl mx-auto italic font-light">
+                    * Nota: A prática regular do Método Pilates contribui expressivamente para o bem-estar e condicionamento físico. Aconselhamos acompanhamento médico específico para diagnósticos clínicos graves.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: GALERIA / ESTRUTURA (Imagens 10 a 13 - Totalmente Exclusivas com Aviso) -->
+    <section id="galeria" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 reveal">
+                <div>
+                    <span class="text-xs uppercase tracking-widest font-semibold text-brand-rose">ESTRUTURA & AMBIENTE</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl text-brand-dark font-normal mt-2">
+                        Um ambiente pensado para o seu bem-estar
+                    </h2>
+                </div>
+                <div class="mt-4 md:mt-0 text-left md:text-right">
+                    <p class="text-xs text-brand-muted max-w-md font-light">
+                        Equipamentos modernos de alta precisão, iluminação natural, climatização agradável e máxima higiene para o seu conforto.
+                    </p>
+                    <p class="text-[10px] text-brand-rose italic mt-1 font-medium">* Fotos demonstrativas — serão substituídas pelas fotos oficiais do estúdio.</p>
+                </div>
+            </div>
+
+            <!-- Gallery Grid (Masonry-style composition com 4 imagens inéditas) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                
+                <!-- Imagem 10 -->
+                <div class="gallery-item overflow-hidden rounded-2xl bg-brand-card aspect-square relative group cursor-pointer reveal" data-action="open-lightbox" data-image="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" data-caption="Aparelho Reformer e molas de precisão" role="button" tabindex="0" aria-label="Ampliar imagem: Aparelho Reformer e molas de precisão">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80" alt="Equipamento Pilates Reformer" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-brand-dark/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <i data-lucide="maximize-2" class="w-6 h-6"></i>
+                    </div>
+                </div>
+
+                <!-- Imagem 11 -->
+                <div class="gallery-item overflow-hidden rounded-2xl bg-brand-card aspect-square sm:aspect-auto sm:row-span-2 relative group cursor-pointer reveal delay-1" data-action="open-lightbox" data-image="https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" data-caption="Ambiente amplo, iluminado e climatizado" role="button" tabindex="0" aria-label="Ampliar imagem: Ambiente amplo, iluminado e climatizado">
+                    <img src="https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=800&q=80" alt="Espaço do Estúdio de Pilates" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-brand-dark/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <i data-lucide="maximize-2" class="w-6 h-6"></i>
+                    </div>
+                </div>
+
+                <!-- Imagem 12 -->
+                <div class="gallery-item overflow-hidden rounded-2xl bg-brand-card aspect-square relative group cursor-pointer reveal delay-2" data-action="open-lightbox" data-image="https://images.unsplash.com/photo-1522845014247-e7e6787bfde2?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" data-caption="Acompanhamento e correção postural minuciosa" role="button" tabindex="0" aria-label="Ampliar imagem: Acompanhamento e correção postural minuciosa">
+                    <img src="https://images.unsplash.com/photo-1522845014247-e7e6787bfde2?auto=format&fit=crop&w=800&q=80" alt="Acompanhamento do instrutor de Pilates" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-brand-dark/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <i data-lucide="maximize-2" class="w-6 h-6"></i>
+                    </div>
+                </div>
+
+                <!-- Imagem 13 -->
+                <div class="gallery-item overflow-hidden rounded-2xl bg-brand-card aspect-square relative group cursor-pointer reveal delay-3" data-action="open-lightbox" data-image="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" data-caption="Detalhe do espaço de relaxamento e acolhimento" role="button" tabindex="0" aria-label="Ampliar imagem: Detalhe do espaço de relaxamento e acolhimento">
+                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80" alt="Recepção acolhedora do Pilates" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-brand-dark/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <i data-lucide="maximize-2" class="w-6 h-6"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: PASSO A PASSO (COMO COMEÇAR) -->
+    <section class="py-20 bg-brand-card border-y border-brand-border/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+                <span class="text-xs uppercase tracking-widest font-semibold text-brand-rose">PASSO A PASSO</span>
+                <h2 class="font-serif text-3xl sm:text-4xl text-brand-dark font-normal mt-2">
+                    Seu primeiro passo começa aqui
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+                
+                <!-- Step 1 -->
+                <div class="bg-brand-bg p-8 rounded-2xl border border-brand-border/60 relative flex flex-col items-center text-center reveal">
+                    <div class="w-10 h-10 rounded-full bg-brand-rose text-white font-serif font-bold text-lg flex items-center justify-center mb-6 shadow-md">
+                        1
+                    </div>
+                    <h3 class="font-serif text-2xl text-brand-dark font-medium mb-3">Entre em contato</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed font-light">
+                        Converse conosco pelo WhatsApp ou formulário e compartilhe um pouco sobre suas rotinas e objetivos.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-brand-bg p-8 rounded-2xl border border-brand-border/60 relative flex flex-col items-center text-center reveal delay-1">
+                    <div class="w-10 h-10 rounded-full bg-brand-rose text-white font-serif font-bold text-lg flex items-center justify-center mb-6 shadow-md">
+                        2
+                    </div>
+                    <h3 class="font-serif text-2xl text-brand-dark font-medium mb-3">Agende sua experiência</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed font-light">
+                        Escolha um horário conveniente para conhecer o estúdio e realizar sua avaliação inicial individual.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-brand-bg p-8 rounded-2xl border border-brand-border/60 relative flex flex-col items-center text-center reveal delay-2">
+                    <div class="w-10 h-10 rounded-full bg-brand-rose text-white font-serif font-bold text-lg flex items-center justify-center mb-6 shadow-md">
+                        3
+                    </div>
+                    <h3 class="font-serif text-2xl text-brand-dark font-medium mb-3">Comece no seu ritmo</h3>
+                    <p class="text-xs text-brand-muted leading-relaxed font-light">
+                        Receba orientações exclusivas dos instrutores e inicie sua jornada sustentável de Pilates.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#agendar" class="inline-flex items-center justify-center px-8 py-4 text-xs uppercase tracking-widest font-bold text-white bg-brand-rose hover:bg-brand-rose-hover rounded-full transition-all shadow-md hover:shadow-floating">
+                    Quero agendar minha aula
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: PLANOS E CONDIÇÕES (Correção Gramatical de "Sessions" para "Sessões") -->
+    <section id="planos" class="py-20 lg:py-28">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+                <span class="text-xs uppercase tracking-widest font-semibold text-brand-rose">MODALIDADES & PLANOS</span>
+                <h2 class="font-serif text-3xl sm:text-4xl text-brand-dark font-normal mt-2 mb-4">
+                    Encontre o plano ideal para sua rotina
+                </h2>
+                <p class="text-xs sm:text-sm text-brand-muted font-light">
+                    Opções flexíveis com atendimento em turmas reduzidas ou individuais.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Plan 1 -->
+                <div class="bg-brand-card rounded-2xl p-8 border border-brand-border/60 flex flex-col justify-between hover:shadow-xl transition-all duration-300 reveal">
+                    <div>
+                        <span class="text-[10px] uppercase tracking-widest font-bold text-brand-muted">Frequência Semanal</span>
+                        <h3 class="font-serif text-3xl text-brand-dark font-medium mt-1 mb-2">1x por semana</h3>
+                        <p class="text-xs text-brand-muted mb-6 font-light">Ideal para complementar outras atividades físicas ou manutenção inicial.</p>
+                        
+                        <div class="py-4 border-y border-brand-border/40 mb-6">
+                            <span class="text-xs text-brand-muted font-medium">Consulte condições e horários</span>
+                        </div>
+
+                        <ul class="space-y-3 text-xs text-brand-dark/80 mb-8 font-light">
+                            <li class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-brand-rose"></i>
+                                Sessões de 50 a 55 minutos
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-brand-rose"></i>
+                                Aparelhos completos de Studio
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-brand-rose"></i>
+                                Reposição conforme regulamento
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#agendar" data-whatsapp-message="Olá! Gostaria de consultar valores do plano 1x por semana." target="_blank" rel="noopener noreferrer" class="w-full py-3 px-4 rounded-xl border border-brand-border text-center text-xs uppercase tracking-widest font-semibold text-brand-dark hover:bg-brand-rose hover:text-white hover:border-brand-rose transition-all">
+                        Consultar pelo WhatsApp
+                    </a>
+                </div>
+
+                <!-- Plan 2 (Highlighted) -->
+                <div class="bg-brand-bg rounded-2xl p-8 border-2 border-brand-rose shadow-floating flex flex-col justify-between relative transform md:-translate-y-2 reveal delay-1">
+                    <span class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brand-rose text-white text-[10px] uppercase tracking-widest font-bold px-4 py-1 rounded-full shadow-sm">
+                        Mais Recomendado
+                    </span>
+                    <div>
+                        <span class="text-[10px] uppercase tracking-widest font-bold text-brand-rose">Frequência Ideal</span>
+                        <h3 class="font-serif text-3xl text-brand-dark font-medium mt-1 mb-2">2x por semana</h3>
+                        <p class="text-xs text-brand-muted mb-6 font-light">A frequência mais indicada para evolução consistente de força e flexibilidade.</p>
+
+                        <div class="py-4 border-y border-brand-border/40 mb-6">
+                            <span class="text-xs text-brand-muted font-medium">Consulte condições e pacotes</span>
+                        </div>
+
+                        <ul class="space-y-3 text-xs text-brand-dark/80 mb-8 font-light">
+                            <li class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-brand-rose"></i>
+                                Sessões de 50 a 55 minutos
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-brand-rose"></i>
+                                Turmas de no máximo 3 a 4 alunos
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-brand-rose"></i>
+                                Acompanhamento personalizado
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#agendar" data-whatsapp-message="Olá! Gostaria de consultar valores do plano 2x por semana." target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-4 rounded-xl bg-brand-rose text-center text-xs uppercase tracking-widest font-bold text-white hover:bg-brand-rose-hover transition-all shadow-md">
+                        Consultar pelo WhatsApp
+                    </a>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="bg-brand-card rounded-2xl p-8 border border-brand-border/60 flex flex-col justify-between hover:shadow-xl transition-all duration-300 reveal delay-2">
+                    <div>
+                        <span class="text-[10px] uppercase tracking-widest font-bold text-brand-muted">Atendimento Exclusivo</span>
+                        <h3 class="font-serif text-3xl text-brand-dark font-medium mt-1 mb-2">Individual VIP</h3>
+                        <p class="text-xs text-brand-muted mb-6 font-light">Sessões 100% exclusivas direcionadas unicamente para você.</p>
+
+                        <div class="py-4 border-y border-brand-border/40 mb-6">
+                            <span class="text-xs text-brand-muted font-medium">Consulte disponibilidade na agenda</span>
+                        </div>
+
+                        <ul class="space-y-3 text-xs text-brand-dark/80 mb-8 font-light">
+                            <li class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-brand-rose"></i>
+                                Sessões de 50 a 55 minutos
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-brand-rose"></i>
+                                Programação sob medida
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-brand-rose"></i>
+                                Flexibilidade de agendamento
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#agendar" data-whatsapp-message="Olá! Gostaria de consultar valores do plano Individual VIP." target="_blank" rel="noopener noreferrer" class="w-full py-3 px-4 rounded-xl border border-brand-border text-center text-xs uppercase tracking-widest font-semibold text-brand-dark hover:bg-brand-rose hover:text-white hover:border-brand-rose transition-all">
+                        Consultar pelo WhatsApp
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: DEPOIMENTOS DE ALUNOS (Com Aviso de Exemplo Conforme Requisito 3) -->
+    <section class="py-20 bg-brand-card border-y border-brand-border/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+                <span class="text-xs uppercase tracking-widest font-semibold text-brand-rose">DEPOIMENTOS</span>
+                <h2 class="font-serif text-3xl sm:text-4xl text-brand-dark font-normal mt-2">
+                    Histórias de quem escolheu se cuidar
+                </h2>
+                <p class="text-[11px] text-brand-rose italic mt-2">* Aviso: Depoimentos ilustrativos para apresentação da estrutura do layout. Serão substituídos por avaliações reais dos seus alunos.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Testimonial 1 -->
+                <div class="bg-brand-bg p-8 rounded-2xl border border-brand-border/60 shadow-soft flex flex-col justify-between reveal">
+                    <div>
+                        <div class="flex text-amber-400 gap-1 mb-4">
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        </div>
+                        <p class="text-xs sm:text-sm text-brand-dark/90 leading-relaxed italic mb-6 font-light">
+                            "O atendimento do estúdio é impecável. As dores lombares que sentia após longas horas de trabalho no computador diminuíram drasticamente nos primeiros dois meses."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-brand-border/40">
+                        <div class="w-10 h-10 rounded-full bg-brand-nude flex items-center justify-center font-serif text-brand-dark font-bold">
+                            M
+                        </div>
+                        <div>
+                            <p class="text-xs font-semibold text-brand-dark">Mariana S.</p>
+                            <p class="text-[10px] text-brand-muted">Aluna de demonstração</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-brand-bg p-8 rounded-2xl border border-brand-border/60 shadow-soft flex flex-col justify-between reveal delay-1">
+                    <div>
+                        <div class="flex text-amber-400 gap-1 mb-4">
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        </div>
+                        <p class="text-xs sm:text-sm text-brand-dark/90 leading-relaxed italic mb-6 font-light">
+                            "Ambiente acolhedor, calmo e extremamente limpo. Os instrutores corrigem cada detalhe da postura. É o meu momento favorito do dia."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-brand-border/40">
+                        <div class="w-10 h-10 rounded-full bg-brand-nude flex items-center justify-center font-serif text-brand-dark font-bold">
+                            C
+                        </div>
+                        <div>
+                            <p class="text-xs font-semibold text-brand-dark">Camila R.</p>
+                            <p class="text-[10px] text-brand-muted">Aluna de demonstração</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-brand-bg p-8 rounded-2xl border border-brand-border/60 shadow-soft flex flex-col justify-between reveal delay-2">
+                    <div>
+                        <div class="flex text-amber-400 gap-1 mb-4">
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                        </div>
+                        <p class="text-xs sm:text-sm text-brand-dark/90 leading-relaxed italic mb-6 font-light">
+                            "Sempre tive receio de praticar exercícios por conta de uma lesão no joelho, mas a atenção individualizada me passou total segurança."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-brand-border/40">
+                        <div class="w-10 h-10 rounded-full bg-brand-nude flex items-center justify-center font-serif text-brand-dark font-bold">
+                            R
+                        </div>
+                        <div>
+                            <p class="text-xs font-semibold text-brand-dark">Roberto A.</p>
+                            <p class="text-[10px] text-brand-muted">Aluno de demonstração</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: FAQ (PERGUNTAS FREQUENTES) -->
+    <section class="py-20">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 reveal">
+                <span class="text-xs uppercase tracking-widest font-semibold text-brand-rose">DÚVIDAS FREQUENTES</span>
+                <h2 class="font-serif text-3xl sm:text-4xl text-brand-dark font-normal mt-2">
+                    Perguntas Frequentes
+                </h2>
+            </div>
+
+            <div class="space-y-4" id="faq-accordion">
+                
+                <div class="faq-item border border-brand-border/60 rounded-2xl bg-brand-card overflow-hidden">
+                    <button class="w-full p-6 text-left flex justify-between items-center gap-4 text-brand-dark font-medium font-serif text-lg focus:outline-none" data-action="toggle-faq" aria-expanded="false">
+                        <span>Preciso ter experiência prévia para começar?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-brand-rose transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-6 text-xs sm:text-sm text-brand-muted font-light leading-relaxed">
+                        Não! Atendemos alunos de todos os níveis, desde quem nunca praticou nenhuma atividade até atletas. Nossas aulas e turmas reduzidas permitem adaptação total dos exercícios ao seu nível.
+                    </div>
+                </div>
+
+                <div class="faq-item border border-brand-border/60 rounded-2xl bg-brand-card overflow-hidden">
+                    <button class="w-full p-6 text-left flex justify-between items-center gap-4 text-brand-dark font-medium font-serif text-lg focus:outline-none" data-action="toggle-faq" aria-expanded="false">
+                        <span>Como funciona a aula experimental?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-brand-rose transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-6 text-xs sm:text-sm text-brand-muted font-light leading-relaxed">
+                        Na aula experimental, realizamos uma breve anamnese para compreender seu histórico de saúde e objetivos. Em seguida, apresentamos os aparelhos e conduzimos uma prática suave e adaptada.
+                    </div>
+                </div>
+
+                <div class="faq-item border border-brand-border/60 rounded-2xl bg-brand-card overflow-hidden">
+                    <button class="w-full p-6 text-left flex justify-between items-center gap-4 text-brand-dark font-medium font-serif text-lg focus:outline-none" data-action="toggle-faq" aria-expanded="false">
+                        <span>Qual vestimenta devo utilizar nas aulas?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-brand-rose transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-6 text-xs sm:text-sm text-brand-muted font-light leading-relaxed">
+                        Recomendamos roupas confortáveis e flexíveis que permitam ampla mobilidade (como calças leg, bermudas ou camisetas leves) e meias antiderrapantes.
+                    </div>
+                </div>
+
+                <div class="faq-item border border-brand-border/60 rounded-2xl bg-brand-card overflow-hidden">
+                    <button class="w-full p-6 text-left flex justify-between items-center gap-4 text-brand-dark font-medium font-serif text-lg focus:outline-none" data-action="toggle-faq" aria-expanded="false">
+                        <span>Pilates ajuda nas dores de coluna?</span>
+                        <i data-lucide="chevron-down" class="w-5 h-5 text-brand-rose transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 pb-6 text-xs sm:text-sm text-brand-muted font-light leading-relaxed">
+                        Sim, o Método Pilates é reconhecido internacionalmente por fortalecer a musculatura profunda de sustentação da coluna e estabilizar a postura, prevenindo e aliviando desconfortos do dia a dia.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: FORMULÁRIO DE PRÉ-AGENDAMENTO & CONTATO -->
+    <section id="agendar" class="py-20 lg:py-28 bg-brand-card border-t border-brand-border/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Contact Details -->
+                <div class="lg:col-span-5 reveal">
+                    <span class="text-xs uppercase tracking-widest font-semibold text-brand-rose">AGENDE SEU HORÁRIO</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl text-brand-dark font-normal mt-2 mb-6">
+                        Venha vivenciar o Método Essence
+                    </h2>
+                    <p class="text-xs sm:text-sm text-brand-muted font-light leading-relaxed mb-8">
+                        Preencha os campos ao lado para direcionarmos sua solicitação diretamente ao WhatsApp da nossa equipe ou utilize nossos contatos diretos.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-brand-bg text-brand-rose flex items-center justify-center shrink-0 border border-brand-border/60">
+                                <i data-lucide="map-pin" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs uppercase tracking-wider font-semibold text-brand-dark">Endereço</h4>
+                                <p class="text-xs text-brand-muted font-light mt-0.5" id="display-address">Av. Professor Magalhães Neto, 1850 - Salvador, BA</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-brand-bg text-brand-rose flex items-center justify-center shrink-0 border border-brand-border/60">
+                                <i data-lucide="clock" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs uppercase tracking-wider font-semibold text-brand-dark">Horário de Funcionamento</h4>
+                                <p class="text-xs text-brand-muted font-light mt-0.5" id="display-hours">Seg a Sex: 06h às 21h | Sáb: 07h às 12h</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-brand-bg text-brand-rose flex items-center justify-center shrink-0 border border-brand-border/60">
+                                <i data-lucide="phone" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xs uppercase tracking-wider font-semibold text-brand-dark">WhatsApp / Atendimento</h4>
+                                <p class="text-xs text-brand-muted font-light mt-0.5" id="display-phone">+55 (71) 99293-0117</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scheduling Form -->
+                <div class="lg:col-span-7 reveal delay-1" id="contato">
+                    <div class="bg-brand-bg p-8 sm:p-10 rounded-3xl border border-brand-border/80 shadow-soft">
+                        <h3 class="font-serif text-2xl text-brand-dark font-medium mb-2">Solicitar Aula Experimental</h3>
+                        <p class="text-xs text-brand-muted font-light mb-6">Seus dados serão utilizados apenas para retorno do agendamento.</p>
+
+                        <form id="booking-form" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-[11px] uppercase tracking-wider font-semibold text-brand-dark mb-1">Seu Nome</label>
+                                    <input type="text" id="form-name" required placeholder="Ex: Maria Silva" class="w-full px-4 py-3 rounded-xl bg-brand-card border border-brand-border text-xs focus:outline-none focus:border-brand-rose transition-colors">
+                                </div>
+                                <div>
+                                    <label class="block text-[11px] uppercase tracking-wider font-semibold text-brand-dark mb-1">Telefone / WhatsApp</label>
+                                    <input type="tel" id="form-phone" required placeholder="(71) 99293-0117" class="w-full px-4 py-3 rounded-xl bg-brand-card border border-brand-border text-xs focus:outline-none focus:border-brand-rose transition-colors">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-[11px] uppercase tracking-wider font-semibold text-brand-dark mb-1">Período de Preferência</label>
+                                    <select id="form-period" class="w-full px-4 py-3 rounded-xl bg-brand-card border border-brand-border text-xs focus:outline-none focus:border-brand-rose transition-colors text-brand-dark">
+                                        <option value="Manhã">Manhã</option>
+                                        <option value="Tarde">Tarde</option>
+                                        <option value="Noite">Noite</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[11px] uppercase tracking-wider font-semibold text-brand-dark mb-1">Modalidade Desejada</label>
+                                    <select id="form-modality" class="w-full px-4 py-3 rounded-xl bg-brand-card border border-brand-border text-xs focus:outline-none focus:border-brand-rose transition-colors text-brand-dark">
+                                        <option value="Pilates Studio">Pilates Studio</option>
+                                        <option value="Pilates Iniciante">Pilates Iniciante</option>
+                                        <option value="Mobilidade & Flexibilidade">Mobilidade & Flexibilidade</option>
+                                        <option value="Atendimento VIP Individual">Atendimento VIP Individual</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-[11px] uppercase tracking-wider font-semibold text-brand-dark mb-1">Mensagem ou Observação (Opcional)</label>
+                                <textarea id="form-message" rows="3" placeholder="Ex: Gostaria de alinhar horários no início da manhã..." class="w-full px-4 py-3 rounded-xl bg-brand-card border border-brand-border text-xs focus:outline-none focus:border-brand-rose transition-colors"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-4 text-xs uppercase tracking-widest font-bold text-white bg-brand-rose hover:bg-brand-rose-hover rounded-xl transition-all shadow-md hover:shadow-floating flex items-center justify-center gap-2">
+                                <i data-lucide="send" class="w-4 h-4"></i>
+                                <span>Enviar Pré-Agendamento pelo WhatsApp</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (Crédito Personalizado para Reinaldo Conforme Requisito 1 & 4) -->
+    <footer class="bg-brand-dark text-brand-bg py-16 border-t border-brand-dark/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+                
+                <div class="md:col-span-1">
+                    <a href="#" class="flex flex-col mb-4">
+                        <span class="font-serif text-2xl tracking-wider text-white font-medium">ESSENCE</span>
+                        <span class="text-[8px] tracking-[0.3em] uppercase text-brand-nude/70 font-semibold">Studio Pilates</span>
+                    </a>
+                    <p class="text-xs text-brand-nude/70 leading-relaxed font-light">
+                        Promovendo saúde, consciência corporal e qualidade de vida através do Método Pilates em um ambiente acolhedor.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-serif text-lg text-white mb-4">Navegação</h4>
+                    <ul class="space-y-2 text-xs text-brand-nude/80 font-light">
+                        <li><a href="#inicio" class="hover:text-brand-rose transition-colors">Início</a></li>
+                        <li><a href="#estudio" class="hover:text-brand-rose transition-colors">O Estúdio</a></li>
+                        <li><a href="#aulas" class="hover:text-brand-rose transition-colors">Aulas e Modalidades</a></li>
+                        <li><a href="#planos" class="hover:text-brand-rose transition-colors">Planos</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-serif text-lg text-white mb-4">Contato do Estúdio</h4>
+                    <ul class="space-y-2 text-xs text-brand-nude/80 font-light">
+                        <li id="footer-address">Av. Prof. Magalhães Neto, 1850</li>
+                        <li id="footer-phone">+55 (71) 99293-0117</li>
+                        <li id="footer-email">contato@studioessence.com.br</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-serif text-lg text-white mb-4">Desenvolvedor</h4>
+                    <p class="text-xs text-brand-nude/80 font-light mb-3">Dúvidas sobre este projeto ou novos sistemas?</p>
+                    <div class="flex flex-col gap-2">
+                        <a href="https://instagram.com/automacao_para_empresas" data-instagram-link target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs text-brand-rose hover:text-white transition-colors">
+                            <i data-lucide="instagram" class="w-4 h-4"></i>
+                            <span data-instagram-handle>@automacao_para_empresas</span>
+                        </a>
+                        <a href="#agendar" data-whatsapp-message="Olá! Gostaria de falar com o Studio Essence." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs text-emerald-400 hover:text-white transition-colors">
+                            <i data-lucide="message-circle" class="w-4 h-4"></i>
+                            <span>WhatsApp: (71) 99293-0117</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Crédito Personalizado do Rodapé -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-brand-nude/60 font-light">
+                <p>&copy; <span id="year"></span> Studio Essence Pilates. Todos os direitos reservados.</p>
+                <div class="mt-3 sm:mt-0 flex items-center gap-2 bg-white/5 px-4 py-2 rounded-full border border-white/10">
+                    <span>Desenvolvido por <strong>Reinaldo</strong></span>
+                    <span class="text-brand-rose">•</span>
+                    <a href="#agendar" data-whatsapp-message="Olá! Gostaria de falar com o Studio Essence." target="_blank" rel="noopener noreferrer" class="hover:underline text-emerald-400 font-medium">WhatsApp</a>
+                    <span class="text-brand-rose">•</span>
+                    <a href="https://instagram.com/automacao_para_empresas" data-instagram-link target="_blank" rel="noopener noreferrer" class="hover:underline text-brand-rose font-medium">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WIDGET FLUTUANTE WHATSAPP -->
+    <a id="floating-whatsapp" href="#agendar" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-emerald-600 hover:bg-emerald-500 text-white p-4 rounded-full shadow-floating flex items-center justify-center transition-transform hover:scale-110 animate-bounce" aria-label="Fale pelo WhatsApp">
+        <i data-lucide="message-circle" class="w-6 h-6 fill-current"></i>
+    </a>
+
+    <!-- MODAL DE DETALHES DAS MODALIDADES -->
+    <div id="modality-modal" class="fixed inset-0 z-50 bg-brand-dark/50 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-brand-bg rounded-3xl max-w-lg w-full p-8 border border-brand-border shadow-xl relative animate-fadeIn">
+            <button data-action="close-modality" class="absolute top-6 right-6 text-brand-muted hover:text-brand-dark" aria-label="Fechar detalhes">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+            <h3 id="modal-title" class="font-serif text-3xl text-brand-dark font-medium mb-4"></h3>
+            <p id="modal-description" class="text-xs sm:text-sm text-brand-muted leading-relaxed font-light mb-8"></p>
+            <a href="#agendar" data-action="close-modality" class="block w-full py-3.5 text-center text-xs uppercase tracking-widest font-bold text-white bg-brand-rose hover:bg-brand-rose-hover rounded-xl transition-all">
+                Agendar aula nesta modalidade
+            </a>
+        </div>
+    </div>
+
+    <!-- LIGHTBOX MODAL (IMAGENS DA GALERIA) -->
+    <div id="lightbox-modal" class="fixed inset-0 z-50 bg-brand-dark/90 backdrop-blur-md hidden items-center justify-center p-4" data-action="close-lightbox">
+        <div class="relative max-w-4xl max-h-[90vh] flex flex-col items-center">
+            <button data-action="close-lightbox" class="absolute -top-12 right-0 text-white/80 hover:text-white" aria-label="Fechar imagem">
+                <i data-lucide="x" class="w-8 h-8"></i>
+            </button>
+            <img id="lightbox-img" src="" alt="" class="max-w-full max-h-[80vh] rounded-2xl object-contain shadow-2xl">
+            <p id="lightbox-caption" class="text-white/80 text-xs mt-4 font-serif text-center"></p>
+        </div>
+    </div>
+
+    <script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>
